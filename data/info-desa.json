@@ -4,6 +4,7 @@
   "layanan_publik": {
     "rumah_sakit": [
       {
+        "image" :"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcgPlBBbiygVtProHwebF2HwvdWHiD9GlLcQ&s",
         "nama": "RSUP Dr. Sardjito",
         "alamat": "Jl. Kesehatan No. 1, Sekip, Yogyakarta",
         "telepon": "(0274) 587333",
