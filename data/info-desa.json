@@ -1,0 +1,116 @@
+{
+    "sejarah": "Desa wisata ini berdiri sejak 2015 dengan semangat melestarikan budaya Jawa dan alam Yogyakarta. Terletak di jantung Kota Yogyakarta, kami menawarkan pengalaman wisata autentik dengan sentuhan modern.",
+    "fasilitas": "Parkir luas, Mushola, Toilet umum, Homestay, Guide lokal, WiFi area pusat, Pusat informasi wisata, ATM center",
+    "jam_operasional": "Senin-Minggu: 24 Jam (Layanan Informasi: 07.00 - 17.00 WIB)",
+    "tiket": "Rp 15.000/orang (termasuk asuransi dasar)",
+    "layanan_publik": {
+      "rumah_sakit": [
+        {
+          "nama": "RSUP Dr. Sardjito",
+          "alamat": "Jl. Kesehatan No. 1, Sekip, Yogyakarta",
+          "telepon": "(0274) 587333",
+          "cp": "IGD: (0274) 631190",
+          "kategori": "Rumah Sakit Umum Pusat"
+        },
+        {
+          "nama": "RS PKU Muhammadiyah Yogyakarta",
+          "alamat": "Jl. KH. Ahmad Dahlan No. 20, Yogyakarta",
+          "telepon": "(0274) 512653",
+          "cp": "Info: (0274) 512653",
+          "kategori": "Rumah Sakit Umum"
+        },
+        {
+          "nama": "RS Bethesda Yogyakarta",
+          "alamat": "Jl. Jend. Sudirman No. 70, Yogyakarta",
+          "telepon": "(0274) 566666",
+          "cp": "IGD: (0274) 588888",
+          "kategori": "Rumah Sakit Umum"
+        },
+        {
+          "nama": "RS Ludira Husada Tama",
+          "alamat": "Jl. Wirosaban Barat No. 4, Yogyakarta",
+          "telepon": "(0274) 371717",
+          "cp": "Info: (0274) 371717",
+          "kategori": "Rumah Sakit Umum"
+        }
+      ],
+      "kantor_pelayanan": [
+        {
+          "nama": "Dinas Dukcapil Kota Yogyakarta",
+          "alamat": "Jl. Suroto No. 2, Kotabaru, Yogyakarta",
+          "telepon": "(0274) 563636",
+          "cp": "Layanan: (0274) 563636",
+          "jam_kerja": "Senin-Jumat: 08.00-15.00 WIB"
+        },
+        {
+          "nama": "Kantor Walikota Yogyakarta",
+          "alamat": "Jl. Kenari No. 56, Yogyakarta",
+          "telepon": "(0274) 563636",
+          "cp": "Humas: (0274) 588888",
+          "jam_kerja": "Senin-Jumat: 08.00-16.00 WIB"
+        },
+        {
+          "nama": "Kecamatan Gondokusuman",
+          "alamat": "Jl. Colombo No. 1, Yogyakarta",
+          "telepon": "(0274) 512345",
+          "cp": "Camat: (0274) 512345",
+          "jam_kerja": "Senin-Jumat: 08.00-15.00 WIB"
+        },
+        {
+          "nama": "Kecamatan Umbulharjo",
+          "alamat": "Jl. AIP K.S. Tubun No. 55, Yogyakarta",
+          "telepon": "(0274) 371234",
+          "cp": "Camat: (0274) 371234",
+          "jam_kerja": "Senin-Jumat: 08.00-15.00 WIB"
+        }
+      ],
+      "pemerintah_daerah": [
+        {
+          "nama": "Dinas Pariwisata DIY",
+          "alamat": "Jl. Cendana No. 11, Yogyakarta",
+          "telepon": "(0274) 513333",
+          "email": "pariwisata@jogjaprov.go.id",
+          "website": "www.dispar.jogjaprov.go.id"
+        },
+        {
+          "nama": "Dinas Kebudayaan DIY",
+          "alamat": "Jl. Cendana No. 11, Yogyakarta",
+          "telepon": "(0274) 513456",
+          "email": "kebudayaan@jogjaprov.go.id"
+        },
+        {
+          "nama": "BPBD DIY",
+          "alamat": "Jl. Ringroad Utara, Condongcatur, Sleman",
+          "telepon": "(0274) 4466666",
+          "hotline": "112",
+          "email": "bpbd@jogjaprov.go.id"
+        }
+      ],
+      "pendidikan": {
+        "sd": [
+        { "nama": "SD Negeri Kotabaru 1", "alamat": "Jl. Kotabaru No. 15, Yogyakarta", "telepon": "(0274) 512345", "cp": "Kepala Sekolah: Ibu Siti Aminah", "website": "https://sdnkotabaru1.sch.id" },
+        { "nama": "SD Negeri Tegalrejo 1", "alamat": "Jl. Tentara Rakyat Mataram, Tegalrejo, Yogyakarta", "telepon": "(0274) 563210", "cp": "Kepala Sekolah: Bapak Hendra Wijaya", "website": "https://sdntegalrejo1.sch.id" },
+        { "nama": "SD Muhammadiyah 1 Yogyakarta", "alamat": "Jl. KHA. Dahlan No. 119, Yogyakarta", "telepon": "(0274) 512654", "cp": "Kepala Sekolah: Bapak Ahmad Fauzi", "website": "https://sdmuh1yogyakarta.sch.id" },
+        { "nama": "SD Kanisius", "alamat": "Jl. Sawojajar No. 3, Yogyakarta", "telepon": "(0274) 563144", "cp": "Kepala Sekolah: Sr. Maria Goretti", "website": "https://sdkanisius.sch.id" }
+        ],
+        "smp": [
+        { "nama": "SMP Negeri 1 Yogyakarta", "alamat": "Jl. AM Sangaji No. 40, Yogyakarta", "telepon": "(0274) 566666", "cp": "Kepala Sekolah: Bapak Budi Santoso", "website": "https://smpn1jogja.sch.id" },
+        { "nama": "SMP Negeri 5 Yogyakarta", "alamat": "Jl. Kenari No. 22, Yogyakarta", "telepon": "(0274) 512789", "cp": "Kepala Sekolah: Ibu Ratna Sari", "website": "https://smpn5jogja.sch.id" },
+        { "nama": "SMP Muhammadiyah 2 Yogyakarta", "alamat": "Jl. KH. Ahmad Dahlan No. 117, Yogyakarta", "telepon": "(0274) 512321", "cp": "Kepala Sekolah: Bapak Dedi Kurniawan", "website": "https://smpmuh2jogja.sch.id" },
+        { "nama": "SMP Pangudi Luhur 1", "alamat": "Jl. Jend. Sudirman No. 60, Yogyakarta", "telepon": "(0274) 513456", "cp": "Kepala Sekolah: Br. Yohanes", "website": "https://spl1.sch.id" }
+        ],
+        "sma": [
+        { "nama": "SMA Negeri 1 Yogyakarta", "alamat": "Jl. AM Sangaji No. 40, Yogyakarta", "telepon": "(0274) 566666", "cp": "Kepala Sekolah: Ibu Sri Wahyuni", "website": "https://sman1jogja.sch.id" },
+        { "nama": "SMA Negeri 3 Yogyakarta", "alamat": "Jl. Laksda Adisucipto No. 1, Yogyakarta", "telepon": "(0274) 484661", "cp": "Kepala Sekolah: Bapak Teguh Prasetyo", "website": "https://sman3jogja.sch.id" },
+        { "nama": "SMA Muhammadiyah 1 Yogyakarta", "alamat": "Jl. KH. Ahmad Dahlan No. 119, Yogyakarta", "telepon": "(0274) 512654", "cp": "Kepala Sekolah: Ibu Nurul Hidayah", "website": "https://smamuh1jogja.sch.id" },
+        { "nama": "SMA Kolese De Britto", "alamat": "Jl. Laksda Adisucipto No. 172, Yogyakarta", "telepon": "(0274) 484004", "cp": "Kepala Sekolah: Br. Aloysius Gonzaga", "website": "https://debrito.sch.id" }
+        ],
+        "universitas": [
+        { "nama": "Universitas Gadjah Mada (UGM)", "alamat": "Jl. Bulaksumur, Yogyakarta", "telepon": "(0274) 543434", "cp": "Humas & Informasi: (0274) 543434", "website": "https://ugm.ac.id" },
+        { "nama": "Universitas Negeri Yogyakarta (UNY)", "alamat": "Jl. Colombo No. 1, Karangmalang, Yogyakarta", "telepon": "(0274) 548200", "cp": "Biro Administrasi Akademik: (0274) 548200", "website": "https://uny.ac.id" },
+        { "nama": "Universitas Ahmad Dahlan (UAD)", "alamat": "Jl. Ringroad Selatan, Tamanan, Yogyakarta", "telepon": "(0274) 379418", "cp": "Call Center: 1500-749", "website": "https://uad.ac.id" },
+        { "nama": "Universitas Islam Indonesia (UII)", "alamat": "Jl. Kaliurang Km. 14, Sleman, Yogyakarta", "telepon": "(0274) 446212", "cp": "Pusat Informasi: (0274) 446212", "website": "https://uii.ac.id" }
+        ]
+      }
+    }
+  }
