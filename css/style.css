@@ -407,3 +407,131 @@
       display: grid; /* Override display:block for grid layout on desktop */
     }
   }  
+
+  /* Gambar di list item */
+.list-item {
+  background: var(--card-bg);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .list-item {
+    flex-direction: row;
+  }
+}
+
+.list-item:hover {
+  transform: translateY(-5px);
+}
+
+.list-item-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .list-item-img {
+    width: 300px;
+    height: auto;
+  }
+}
+
+.list-item-content {
+  padding: 1.5rem;
+  flex: 1;
+}
+
+.list-item h4 {
+  color: var(--primary);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.list-item p {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+}
+
+/* Tombol Website */
+.btn-website {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding: 0.7rem 1.2rem;
+  background: var(--primary);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.btn-website:hover {
+  background: #1a3d33;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(44, 94, 79, 0.3);
+}
+
+/* Kartu Pendidikan dengan Foto */
+.edu-card {
+  background: var(--card-bg);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s;
+}
+
+.edu-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.edu-card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.edu-card-body {
+  padding: 1.5rem;
+}
+
+.edu-card h4 {
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+  font-size: 1.15rem;
+}
+
+.edu-card p {
+  margin: 0.4rem 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.edu-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 1rem;
+  padding: 0.6rem 1rem;
+  background: var(--secondary);
+  color: var(--primary);
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.edu-link:hover {
+  background: #b58b5e;
+  transform: translateY(-2px);
+}
