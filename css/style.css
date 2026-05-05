@@ -448,17 +448,6 @@
   flex: 1;
 }
 
-.list-item h4 {
-  color: var(--primary);
-  margin-bottom: 1rem;
-  font-size: 1.2rem;
-}
-
-.list-item p {
-  margin: 0.5rem 0;
-  font-size: 0.95rem;
-}
-
 /* Tombol Website */
 .btn-website {
   display: inline-flex;
@@ -480,7 +469,7 @@
   box-shadow: 0 4px 12px rgba(44, 94, 79, 0.3);
 }
 
-/* Kartu Pendidikan dengan Foto */
+/* Kartu Pendidikan */
 .edu-card {
   background: var(--card-bg);
   border-radius: 12px;
@@ -492,7 +481,6 @@
 
 .edu-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
 .edu-card-img {
@@ -503,16 +491,4 @@
 
 .edu-card-body {
   padding: 1.5rem;
-}
-
-.edu-card h4 {
-  color: var(--primary);
-  margin-bottom: 0.5rem;
-  font-size: 1.15rem;
-}
-
-.edu-card p {
-  margin: 0.4rem 0;
-  font-size: 0.95rem;
-  line-height: 1.6;
 }
