@@ -182,7 +182,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <div class="edu-grid">
         ${items.map(sekolah => `
           <div class="edu-card">
-            <img src="${sekolah.foto || 'https://placehold.co/300x150/2c5e4f/white?text=Sekolah'}" 
+            <img src="${sekolah.foto || 'https://placehold.co/350x50/2c5e4f/white?text=Sekolah'}" 
                  alt="${sekolah.nama}" class="edu-img"
                  onerror="this.src='https://placehold.co/300x150/2c5e4f/white?text=Sekolah'">
             <div class="edu-body">
