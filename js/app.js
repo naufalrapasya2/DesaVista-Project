@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // ===== MOBILE MENU TOGGLE =====
   const menuBtn = document.querySelector('.menu-toggle');
   const navLinks = document.querySelector('.nav-links');
+  menuBtn.addEventListener('click', () => navLinks.classList.toggle('active'));
   if (menuBtn && navLinks) {
     menuBtn.addEventListener('click', () => {
       navLinks.classList.toggle('active');
@@ -19,6 +20,11 @@ document.addEventListener('DOMContentLoaded', () => {
       const data = await response.json();
       
       const container = document.getElementById(containerId);
+      container.innerHTML = '';
+      data.forEach(item => {
+        const el = renderFn(item);
+        container.appendChild(el);
+      });
       if (!container) {
         console.error(`❌ Element #${containerId} tidak ditemukan!`);
         return;
