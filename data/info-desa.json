@@ -9,102 +9,267 @@
   
   "layanan_publik": {
     "rumah_sakit": [
-      {
-        "nama": "RSUP Dr. Sardjito",
-        "alamat": "Jl. Kesehatan No. 1, Sekip, Yogyakarta 55281",
-        "telepon": "(0274) 587333",
-        "cp": "IGD: (0274) 631190",
-        "kategori": "Rumah Sakit Umum Pusat",
-        "website": "https://sardjito.co.id"
-      },
-      {
-        "nama": "RS PKU Muhammadiyah Yogyakarta",
-        "alamat": "Jl. KH. Ahmad Dahlan No. 20, Yogyakarta 55161",
-        "telepon": "(0274) 512653",
-        "cp": "Informasi: (0274) 512653",
-        "kategori": "Rumah Sakit Umum",
-        "website": "https://pkuyogyakarta.com"
-      },
-      {
-        "nama": "RS Bethesda Yogyakarta",
-        "alamat": "Jl. Jend. Sudirman No. 70, Yogyakarta 55224",
-        "telepon": "(0274) 566666",
-        "cp": "IGD: (0274) 588888",
-        "kategori": "Rumah Sakit Umum",
-        "website": "https://rsbethesda-yogya.com"
-      },
-      {
-        "nama": "RS Ludira Husada Tama",
-        "alamat": "Jl. Wirosaban Barat No. 4, Yogyakarta 55165",
-        "telepon": "(0274) 371717",
-        "cp": "Informasi: (0274) 371717",
-        "kategori": "Rumah Sakit Umum",
-        "website": "https://rsludirahusada.com"
-      }
-    ],
+  {
+    "nama": "RSUP Dr. Sardjito",
+    "alamat": "Jl. Kesehatan No. 1, Sekip, Yogyakarta 55281",
+    "telepon": "(0274) 587333",
+    "cp": "IGD: (0274) 631190",
+    "kategori": "Rumah Sakit Umum Pusat",
+    "website": "https://sardjito.co.id",
+    "jam_operasional": "24 Jam",
+    "foto": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400"
+  },
+  {
+    "nama": "RS PKU Muhammadiyah Yogyakarta",
+    "alamat": "Jl. KH. Ahmad Dahlan No. 20, Yogyakarta 55161",
+    "telepon": "(0274) 512653",
+    "cp": "Informasi: (0274) 512653",
+    "kategori": "Rumah Sakit Umum",
+    "website": "https://pkuyogyakarta.com",
+    "jam_operasional": "24 Jam",
+    "foto": "https://images.unsplash.com/photo-1587351021759-3e566b2af7cc?w=400"
+  },
+  {
+    "nama": "RS Bethesda Yogyakarta",
+    "alamat": "Jl. Jend. Sudirman No. 70, Yogyakarta 55224",
+    "telepon": "(0274) 566666",
+    "cp": "IGD: (0274) 588888",
+    "kategori": "Rumah Sakit Umum",
+    "website": "https://rsbethesda-yogya.com",
+    "jam_operasional": "24 Jam",
+    "foto": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=400"
+  },
+  {
+    "nama": "RS Ludira Husada Tama",
+    "alamat": "Jl. Wirosaban Barat No. 4, Yogyakarta 55165",
+    "telepon": "(0274) 371717",
+    "cp": "Informasi: (0274) 371717",
+    "kategori": "Rumah Sakit Umum",
+    "website": "https://rsludirahusada.com",
+    "jam_operasional": "24 Jam",
+    "foto": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400"
+  },
+  { "nama": "RS JIH Yogyakarta", "alamat": "Jl. Ringroad Barat, Condongcatur, Sleman", "telepon": "(0274) 4463535", "cp": "IGD: (0274) 4463911", "kategori": "Rumah Sakit Umum", "website": "https://jih.co.id", "jam_operasional": "24 Jam", "foto": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400" },
+  { "nama": "RS Panti Rapih", "alamat": "Jl. Cik Di Tiro No. 30, Yogyakarta 55223", "telepon": "(0274) 563333", "cp": "Informasi: (0274) 514040", "kategori": "Rumah Sakit Umum", "website": "https://pantirapih.or.id", "jam_operasional": "24 Jam", "foto": "https://images.unsplash.com/photo-1587351021759-3e566b2af7cc?w=400" },
+  { "nama": "RS Happy Land Medical Centre", "alamat": "Jl. Ipda Tut Harsono No. 53, Yogyakarta", "telepon": "(0274) 4333999", "cp": "IGD: (0274) 4333119", "kategori": "Rumah Sakit Umum", "website": "https://happylandmc.com", "jam_operasional": "24 Jam", "foto": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=400" },
+  { "nama": "RS Siloam Yogyakarta", "alamat": "Jl. Laksda Adisucipto No. 32-34, Yogyakarta", "telepon": "(0274) 4333933", "cp": "Customer Care: 1500188", "kategori": "Rumah Sakit Umum", "website": "https://siloamhospitals.com", "jam_operasional": "24 Jam", "foto": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400" },
+  { "nama": "RS Hermina Yogya", "alamat": "Jl. Tentara Rakyat Mataram No. 99, Yogyakarta", "telepon": "(0274) 4333888", "cp": "Informasi: (0274) 4333800", "kategori": "Rumah Sakit Umum", "website": "https://herminahospitals.com", "jam_operasional": "24 Jam", "foto": "https://images.unsplash.com/photo-1587351021759-3e566b2af7cc?w=400" },
+  { "nama": "RS Condong Catur", "alamat": "Jl. Ringroad Utara, Condongcatur, Sleman", "telepon": "(0274) 4463444", "cp": "IGD: (0274) 4463911", "kategori": "Rumah Sakit Umum", "website": "https://rscc.co.id", "jam_operasional": "24 Jam", "foto": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=400" },
+  { "nama": "RS PKU Muhammadiyah Gamping", "alamat": "Jl. Gamping Lor, Sleman, Yogyakarta", "telepon": "(0274) 625555", "cp": "Informasi: (0274) 625500", "kategori": "Rumah Sakit Umum", "website": "https://pkugamping.com", "jam_operasional": "24 Jam", "foto": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400" },
+  { "nama": "RS PKU Muhammadiyah Bantul", "alamat": "Jl. Jend. Sudirman No. 28, Bantul", "telepon": "(0274) 367367", "cp": "IGD: (0274) 367119", "kategori": "Rumah Sakit Umum", "website": "https://pkubantul.com", "jam_operasional": "24 Jam", "foto": "https://images.unsplash.com/photo-1587351021759-3e566b2af7cc?w=400" },
+  { "nama": "RSUD Panembahan Senopati Bantul", "alamat": "Jl. Dr. Wahidin Sudirohusodo, Bantul", "telepon": "(0274) 367367", "cp": "Informasi: (0274) 367456", "kategori": "Rumah Sakit Umum Daerah", "website": "https://rsudbantul.com", "jam_operasional": "24 Jam", "foto": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=400" },
+  { "nama": "RSUD Sleman", "alamat": "Jl. Raya Yogya-Solo Km. 14, Sleman", "telepon": "(0274) 868800", "cp": "IGD: (0274) 868911", "kategori": "Rumah Sakit Umum Daerah", "website": "https://rsud.slemankab.go.id", "jam_operasional": "24 Jam", "foto": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400" },
+  { "nama": "RSUD Wonosari", "alamat": "Jl. Taman Bakti No. 1, Wonosari, Gunung Kidul", "telepon": "(0274) 391014", "cp": "Informasi: (0274) 391119", "kategori": "Rumah Sakit Umum Daerah", "website": "https://rsudwonosari.com", "jam_operasional": "24 Jam", "foto": "https://images.unsplash.com/photo-1587351021759-3e566b2af7cc?w=400" },
+  { "nama": "RSUD Kulon Progo", "alamat": "Jl. KH. Ahmad Dahlan, Wates, Kulon Progo", "telepon": "(0274) 773169", "cp": "IGD: (0274) 773911", "kategori": "Rumah Sakit Umum Daerah", "website": "https://rsudkulonprogo.com", "jam_operasional": "24 Jam", "foto": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=400" },
+  { "nama": "RS Mata Dr. Yap", "alamat": "Jl. Cik Di Tiro No. 5, Yogyakarta", "telepon": "(0274) 546666", "cp": "Informasi: (0274) 546777", "kategori": "Rumah Sakit Khusus Mata", "website": "https://rsmatayap.com", "jam_operasional": "Senin-Sabtu: 08.00-16.00", "foto": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=400" },
+  { "nama": "RS Paru Dr. Haryoto", "alamat": "Jl. Kaliurang Km. 10, Sleman", "telepon": "(0274) 895895", "cp": "Informasi: (0274) 895119", "kategori": "Rumah Sakit Khusus Paru", "website": "https://rsparu-haryoto.com", "jam_operasional": "24 Jam", "foto": "https://images.unsplash.com/photo-1587351021759-3e566b2af7cc?w=400" },
+  { "nama": "RS Jiwa Grhasia", "alamat": "Jl. Parangtritis Km. 11, Bantul", "telepon": "(0274) 371119", "cp": "IGD: (0274) 371911", "kategori": "Rumah Sakit Jiwa", "website": "https://rsjgrhasia.com", "jam_operasional": "24 Jam", "foto": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=400" }
+],
     
     "kantor_pelayanan": [
-      {
-        "nama": "Dinas Dukcapil Kota Yogyakarta",
-        "alamat": "Jl. Suroto No. 2, Kotabaru, Yogyakarta 55224",
-        "telepon": "(0274) 563636",
-        "cp": "Layanan: (0274) 563636",
-        "jam_kerja": "Senin-Jumat: 08.00-15.00 WIB",
-        "website": "https://disdukcapil.jogjakota.go.id"
-      },
-      {
-        "nama": "Kantor Walikota Yogyakarta",
-        "alamat": "Jl. Kenari No. 56, Yogyakarta 55165",
-        "telepon": "(0274) 563636",
-        "cp": "Humas: (0274) 588888",
-        "jam_kerja": "Senin-Jumat: 08.00-16.00 WIB",
-        "website": "https://jogjakarta.go.id"
-      },
-      {
-        "nama": "Kecamatan Gondokusuman",
-        "alamat": "Jl. Colombo No. 1, Yogyakarta 55223",
-        "telepon": "(0274) 512345",
-        "cp": "Camat: (0274) 512345",
-        "jam_kerja": "Senin-Jumat: 08.00-15.00 WIB",
-        "website": "https://gondokusuman.jogjakota.go.id"
-      },
-      {
-        "nama": "Kecamatan Umbulharjo",
-        "alamat": "Jl. AIP K.S. Tubun No. 55, Yogyakarta 55162",
-        "telepon": "(0274) 371234",
-        "cp": "Camat: (0274) 371234",
-        "jam_kerja": "Senin-Jumat: 08.00-15.00 WIB",
-        "website": "https://umbulharjo.jogjakota.go.id"
-      }
-    ],
+  {
+    "nama": "Dinas Dukcapil Kota Yogyakarta",
+    "alamat": "Jl. Suroto No. 2, Kotabaru, Yogyakarta 55224",
+    "telepon": "(0274) 563636",
+    "cp": "Layanan: (0274) 563636",
+    "jam_kerja": "Senin-Jumat: 08.00-15.00 WIB",
+    "website": "https://disdukcapil.jogjakota.go.id",
+    "jam_operasional": "Senin-Jumat: 08.00-15.00 WIB",
+    "foto": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=400"
+  },
+  {
+    "nama": "Kantor Walikota Yogyakarta",
+    "alamat": "Jl. Kenari No. 56, Yogyakarta 55165",
+    "telepon": "(0274) 563636",
+    "cp": "Humas: (0274) 588888",
+    "jam_kerja": "Senin-Jumat: 08.00-16.00 WIB",
+    "website": "https://jogjakarta.go.id",
+    "jam_operasional": "Senin-Jumat: 08.00-16.00 WIB",
+    "foto": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400"
+  },
+  {
+    "nama": "Kecamatan Gondokusuman",
+    "alamat": "Jl. Colombo No. 1, Yogyakarta 55223",
+    "telepon": "(0274) 512345",
+    "cp": "Camat: (0274) 512345",
+    "jam_kerja": "Senin-Jumat: 08.00-15.00 WIB",
+    "website": "https://gondokusuman.jogjakota.go.id",
+    "jam_operasional": "Senin-Jumat: 08.00-15.00 WIB",
+    "foto": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=400"
+  },
+  {
+    "nama": "Kecamatan Umbulharjo",
+    "alamat": "Jl. AIP K.S. Tubun No. 55, Yogyakarta 55162",
+    "telepon": "(0274) 371234",
+    "cp": "Camat: (0274) 371234",
+    "jam_kerja": "Senin-Jumat: 08.00-15.00 WIB",
+    "website": "https://umbulharjo.jogjakota.go.id",
+    "jam_operasional": "Senin-Jumat: 08.00-15.00 WIB",
+    "foto": "https://images.unsplash.com/photo-1497366754035-f200968a6e7c?w=400"
+  },
+  { "nama": "Kelurahan Kotabaru",
+    "alamat": "Jl. AM Sangaji No. 50, Kotabaru, Yogyakarta",
+    "telepon": "(0274) 563789", "cp": "Lurah: Ibu Siti Nurhaliza",
+    "jam_kerja": "Senin-Jumat: 08.00-15.00",
+    "website": "https://kotabaru.jogjakota.go.id",
+    "jam_operasional": "Senin-Jumat: 08.00-15.00 WIB",
+    "foto": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=400" 
+  },
+  { "nama": "Kelurahan Terban", "alamat": "Jl. Laksda Adisucipto No. 72, Terban, Yogyakarta", "telepon": "(0274) 512890", "cp": "Lurah: Bapak Agus Santoso", "jam_kerja": "Senin-Jumat: 08.00-15.00", "website": "https://terban.jogjakota.go.id", "jam_operasional": "Senin-Jumat: 08.00-15.00 WIB", "foto": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400" },
+  { "nama": "Kelurahan Baciro", "alamat": "Jl. Gejayan No. 25, Baciro, Yogyakarta", "telepon": "(0274) 588123", "cp": "Lurah: Ibu Ratna Dewi", "jam_kerja": "Senin-Jumat: 08.00-15.00", "website": "https://baciro.jogjakota.go.id", "jam_operasional": "Senin-Jumat: 08.00-15.00 WIB", "foto": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=400" },
+  { "nama": "Kelurahan Demangan", "alamat": "Jl. Demangan Baru No. 10, Yogyakarta", "telepon": "(0274) 548234", "cp": "Lurah: Bapak Budi Hartono", "jam_kerja": "Senin-Jumat: 08.00-15.00", "website": "https://demangan.jogjakota.go.id", "jam_operasional": "Senin-Jumat: 08.00-15.00 WIB", "foto": "https://images.unsplash.com/photo-1497366754035-f200968a6e7c?w=400" },
+  { "nama": "Kelurahan Sorosutan", "alamat": "Jl. Sorosutan No. 18, Umbulharjo, Yogyakarta", "telepon": "(0274) 371567", "cp": "Lurah: Ibu Sri Mulyani", "jam_kerja": "Senin-Jumat: 08.00-15.00", "website": "https://sorosutan.jogjakota.go.id", "jam_operasional": "Senin-Jumat: 08.00-15.00 WIB", "foto": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=400" },
+  { "nama": "Kelurahan Semaki", "alamat": "Jl. Kapas No. 45, Semaki, Yogyakarta", "telepon": "(0274) 371890", "cp": "Lurah: Bapak Joko Widodo", "jam_kerja": "Senin-Jumat: 08.00-15.00", "website": "https://semaki.jogjakota.go.id", "jam_operasional": "Senin-Jumat: 08.00-15.00 WIB", "foto": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400" },
+  { "nama": "Kelurahan Muja Muju", "alamat": "Jl. Muja Muju No. 33, Umbulharjo, Yogyakarta", "telepon": "(0274) 371234", "cp": "Lurah: Ibu Ani Wijaya", "jam_kerja": "Senin-Jumat: 08.00-15.00", "website": "https://mujamuju.jogjakota.go.id", "jam_operasional": "Senin-Jumat: 08.00-15.00 WIB", "foto": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=400" },
+  { "nama": "Kelurahan Warungboto", "alamat": "Jl. Warungboto No. 12, Umbulharjo, Yogyakarta", "telepon": "(0274) 371456", "cp": "Lurah: Bapak Slamet Riyadi", "jam_kerja": "Senin-Jumat: 08.00-15.00", "website": "https://warungboto.jogjakota.go.id", "jam_operasional": "Senin-Jumat: 08.00-15.00 WIB", "foto": "https://images.unsplash.com/photo-1497366754035-f200968a6e7c?w=400" },
+  { "nama": "Kelurahan Pandeyan", "alamat": "Jl. Pandeyan No. 88, Umbulharjo, Yogyakarta", "telepon": "(0274) 371678", "cp": "Lurah: Ibu Dewi Lestari", "jam_kerja": "Senin-Jumat: 08.00-15.00", "website": "https://pandeyan.jogjakota.go.id", "jam_operasional": "Senin-Jumat: 08.00-15.00 WIB", "foto": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=400" },
+  { "nama": "Kelurahan Giwangan", "alamat": "Jl. Giwangan No. 56, Umbulharjo, Yogyakarta", "telepon": "(0274) 371789", "cp": "Lurah: Bapak Hendra Kusuma", "jam_kerja": "Senin-Jumat: 08.00-15.00", "website": "https://giwangan.jogjakota.go.id", "jam_operasional": "Senin-Jumat: 08.00-15.00 WIB", "foto": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400" },
+  { "nama": "Kelurahan Tegalrejo", "alamat": "Jl. Tentara Rakyat Mataram, Tegalrejo, Yogyakarta", "telepon": "(0274) 563456", "cp": "Lurah: Ibu Wulan Sari", "jam_kerja": "Senin-Jumat: 08.00-15.00", "website": "https://tegalrejo.jogjakota.go.id", "jam_operasional": "Senin-Jumat: 08.00-15.00 WIB", "foto": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=400" },
+  { "nama": "Kelurahan Bener", "alamat": "Jl. Bener No. 22, Tegalrejo, Yogyakarta", "telepon": "(0274) 563567", "cp": "Lurah: Bapak Arif Rahman", "jam_kerja": "Senin-Jumat: 08.00-15.00", "website": "https://bener.jogjakota.go.id", "jam_operasional": "Senin-Jumat: 08.00-15.00 WIB", "foto": "https://images.unsplash.com/photo-1497366754035-f200968a6e7c?w=400" },
+  { "nama": "Kelurahan Karangkajen", "alamat": "Jl. Karangkajen No. 15, Yogyakarta", "telepon": "(0274) 512678", "cp": "Lurah: Ibu Maya Puspita", "jam_kerja": "Senin-Jumat: 08.00-15.00", "website": "https://karangkajen.jogjakota.go.id", "jam_operasional": "Senin-Jumat: 08.00-15.00 WIB", "foto": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=400" },
+  { "nama": "Kelurahan Pakuncen", "alamat": "Jl. Pakuncen No. 30, Wirobrajan, Yogyakarta", "telepon": "(0274) 563890", "cp": "Lurah: Bapak Dwi Prasetyo", "jam_kerja": "Senin-Jumat: 08.00-15.00", "website": "https://pakuncen.jogjakota.go.id", "jam_operasional": "Senin-Jumat: 08.00-15.00 WIB", "foto": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400" },
+  { "nama": "Kelurahan Patangpuluhan", "alamat": "Jl. Patangpuluhan No. 18, Wirobrajan, Yogyakarta", "telepon": "(0274) 563901", "cp": "Lurah: Ibu Rina Anggraini", "jam_kerja": "Senin-Jumat: 08.00-15.00", "website": "https://patangpuluhan.jogjakota.go.id", "jam_operasional": "Senin-Jumat: 08.00-15.00 WIB", "foto": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=400" },
+  { "nama": "Kelurahan Wirobrajan", "alamat": "Jl. Wirobrajan No. 44, Yogyakarta", "telepon": "(0274) 564012", "cp": "Lurah: Bapak Eko Prasetyo", "jam_kerja": "Senin-Jumat: 08.00-15.00", "website": "https://wirobrajan.jogjakota.go.id", "jam_operasional": "Senin-Jumat: 08.00-15.00 WIB", "foto": "https://images.unsplash.com/photo-1497366754035-f200968a6e7c?w=400" },
+  { "nama": "Kelurahan Bumijo", "alamat": "Jl. Bumijo No. 25, Jetis, Yogyakarta", "telepon": "(0274) 564123", "cp": "Lurah: Ibu Sari Indah", "jam_kerja": "Senin-Jumat: 08.00-15.00", "website": "https://bumijo.jogjakota.go.id", "jam_operasional": "Senin-Jumat: 08.00-15.00 WIB", "foto": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=400" },
+  { "nama": "Kelurahan Cokrodiningratan", "alamat": "Jl. Cokrodiningratan No. 12, Jetis, Yogyakarta", "telepon": "(0274) 564234", "cp": "Lurah: Bapak Teguh Santoso", "jam_kerja": "Senin-Jumat: 08.00-15.00", "website": "https://cokrodiningratan.jogjakota.go.id", "jam_operasional": "Senin-Jumat: 08.00-15.00 WIB", "foto": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400" },
+  { "nama": "Kelurahan Gowongan", "alamat": "Jl. Gowongan No. 33, Jetis, Yogyakarta", "telepon": "(0274) 564345", "cp": "Lurah: Ibu Fitri Handayani", "jam_kerja": "Senin-Jumat: 08.00-15.00", "website": "https://gowongan.jogjakota.go.id", "jam_operasional": "Senin-Jumat: 08.00-15.00 WIB", "foto": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=400" },
+  { "nama": "Kelurahan Pringgokusuman", "alamat": "Jl. Pringgokusuman No. 50, Gedongtengen, Yogyakarta", "telepon": "(0274) 564456", "cp": "Lurah: Bapak Wahyu Nugroho", "jam_kerja": "Senin-Jumat: 08.00-15.00", "website": "https://pringgokusuman.jogjakota.go.id", "jam_operasional": "Senin-Jumat: 08.00-15.00 WIB", "foto": "https://images.unsplash.com/photo-1497366754035-f200968a6e7c?w=400" }
+],
     
     "pemerintah_daerah": [
-      {
-        "nama": "Dinas Pariwisata DIY",
-        "alamat": "Jl. Cendana No. 11, Yogyakarta 55281",
-        "telepon": "(0274) 513333",
-        "email": "pariwisata@jogjaprov.go.id",
-        "website": "https://dispar.jogjaprov.go.id"
-      },
-      {
-        "nama": "Dinas Kebudayaan DIY",
-        "alamat": "Jl. Cendana No. 11, Yogyakarta 55281",
-        "telepon": "(0274) 513456",
-        "email": "kebudayaan@jogjaprov.go.id",
-        "website": "https://kebudayaan.jogjaprov.go.id"
-      },
-      {
-        "nama": "BPBD DIY",
-        "alamat": "Jl. Ringroad Utara, Condongcatur, Sleman 55283",
-        "telepon": "(0274) 4466666",
-        "hotline": "112",
-        "email": "bpbd@jogjaprov.go.id",
-        "website": "https://bpbd.jogjaprov.go.id"
-      }
-    ],
+  {
+    "nama": "Dinas Pariwisata DIY",
+    "alamat": "Jl. Cendana No. 11, Yogyakarta 55281",
+    "telepon": "(0274) 513333",
+    "email": "pariwisata@jogjaprov.go.id",
+    "website": "https://dispar.jogjaprov.go.id",
+    "jam_operasional": "Senin-Jumat: 08.00-16.00 WIB",
+    "foto": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=400"
+  },
+  {
+    "nama": "Dinas Kebudayaan DIY",
+    "alamat": "Jl. Cendana No. 11, Yogyakarta 55281",
+    "telepon": "(0274) 513456",
+    "email": "kebudayaan@jogjaprov.go.id",
+    "website": "https://kebudayaan.jogjaprov.go.id",
+    "jam_operasional": "Senin-Jumat: 08.00-16.00 WIB",
+    "foto": "https://images.unsplash.com/photo-1566127444979-b3d2b654e3d7?w=400"
+  },
+  {
+    "nama": "BPBD DIY",
+    "alamat": "Jl. Ringroad Utara, Condongcatur, Sleman 55283",
+    "telepon": "(0274) 4466666",
+    "hotline": "112",
+    "email": "bpbd@jogjaprov.go.id",
+    "website": "https://bpbd.jogjaprov.go.id",
+    "jam_operasional": "24 Jam",
+    "foto": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400"
+  },
+  { "nama": "Sekretariat Daerah DIY", "alamat": "Jl. Malioboro No. 56, Yogyakarta", "telepon": "(0274) 566666", "email": "setda@jogjaprov.go.id", "website": "https://jogjaprov.go.id", "jam_operasional": "Senin-Jumat: 08.00-16.00", "foto": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=400" },
+  { "nama": "Dinas Pendidikan DIY", "alamat": "Jl. Cendana No. 11, Yogyakarta", "telepon": "(0274) 513789", "email": "pendidikan@jogjaprov.go.id", "website": "https://disdik.jogjaprov.go.id", "jam_operasional": "Senin-Jumat: 08.00-16.00", "foto": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400" },
+  { "nama": "Dinas Kesehatan DIY", "alamat": "Jl. Kapas No. 17, Yogyakarta", "telepon": "(0274) 513890", "email": "kesehatan@jogjaprov.go.id", "website": "https://dinkes.jogjaprov.go.id", "jam_operasional": "Senin-Jumat: 08.00-16.00", "foto": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=400" },
+  { "nama": "Dinas Sosial DIY", "alamat": "Jl. Ipda Tut Harsono No. 3, Yogyakarta", "telepon": "(0274) 513901", "email": "sosial@jogjaprov.go.id", "website": "https://disos.jogjaprov.go.id", "jam_operasional": "Senin-Jumat: 08.00-16.00", "foto": "https://images.unsplash.com/photo-1497366754035-f200968a6e7c?w=400" },
+  { "nama": "Dinas Tenaga Kerja DIY", "alamat": "Jl. Suroto No. 1, Yogyakarta", "telepon": "(0274) 514012", "email": "naker@jogjaprov.go.id", "website": "https://disnaker.jogjaprov.go.id", "jam_operasional": "Senin-Jumat: 08.00-16.00", "foto": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=400" },
+  { "nama": "Dinas Perhubungan DIY", "alamat": "Jl. AM Sangaji No. 50, Yogyakarta", "telepon": "(0274) 514123", "email": "perhubungan@jogjaprov.go.id", "website": "https://dishub.jogjaprov.go.id", "jam_operasional": "Senin-Jumat: 08.00-16.00", "foto": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400" },
+  { "nama": "Dinas PUP-ESDM DIY", "alamat": "Jl. Tentara Rakyat Mataram No. 10, Yogyakarta", "telepon": "(0274) 514234", "email": "pup@jogjaprov.go.id", "website": "https://pup.jogjaprov.go.id", "jam_operasional": "Senin-Jumat: 08.00-16.00", "foto": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=400" },
+  { "nama": "Dinas Lingkungan Hidup DIY", "alamat": "Jl. Kenari No. 45, Yogyakarta", "telepon": "(0274) 514345", "email": "lh@jogjaprov.go.id", "website": "https://dlh.jogjaprov.go.id", "jam_operasional": "Senin-Jumat: 08.00-16.00", "foto": "https://images.unsplash.com/photo-1497366754035-f200968a6e7c?w=400" },
+  { "nama": "Dinas Perdagangan DIY", "alamat": "Jl. Colombo No. 22, Yogyakarta", "telepon": "(0274) 514456", "email": "perdagangan@jogjaprov.go.id", "website": "https://disdag.jogjaprov.go.id", "jam_operasional": "Senin-Jumat: 08.00-16.00", "foto": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=400" },
+  { "nama": "Dinas Koperasi & UKM DIY", "alamat": "Jl. Laksda Adisucipto No. 88, Yogyakarta", "telepon": "(0274) 514567", "email": "koperasismk@jogjaprov.go.id", "website": "https://diskopukm.jogjaprov.go.id", "jam_operasional": "Senin-Jumat: 08.00-16.00", "foto": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400" },
+  { "nama": "Dinas Pertanian & Pangan DIY", "alamat": "Jl. Kapas No. 33, Yogyakarta", "telepon": "(0274) 514678", "email": "pertanian@jogjaprov.go.id", "website": "https://pertanian.jogjaprov.go.id", "jam_operasional": "Senin-Jumat: 08.00-16.00", "foto": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=400" },
+  { "nama": "Dinas Perikanan DIY", "alamat": "Jl. Gejayan No. 55, Yogyakarta", "telepon": "(0274) 514789", "email": "perikanan@jogjaprov.go.id", "website": "https://perikanan.jogjaprov.go.id", "jam_operasional": "Senin-Jumat: 08.00-16.00", "foto": "https://images.unsplash.com/photo-1497366754035-f200968a6e7c?w=400" },
+  { "nama": "Dinas Perpustakaan & Kearsipan DIY", "alamat": "Jl. Jend. Sudirman No. 11, Yogyakarta", "telepon": "(0274) 514890", "email": "perpus@jogjaprov.go.id", "website": "https://perpus.jogjaprov.go.id", "jam_operasional": "Senin-Jumat: 08.00-16.00", "foto": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=400" },
+  { "nama": "Dinas Komunikasi & Informatika DIY", "alamat": "Jl. Malioboro No. 12, Yogyakarta", "telepon": "(0274) 514901", "email": "kominfo@jogjaprov.go.id", "website": "https://kominfo.jogjaprov.go.id", "jam_operasional": "Senin-Jumat: 08.00-16.00", "foto": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400" },
+  { "nama": "Badan Perencanaan Pembangunan DIY", "alamat": "Jl. Cendana No. 13, Yogyakarta", "telepon": "(0274) 515012", "email": "bappeda@jogjaprov.go.id", "website": "https://bappeda.jogjaprov.go.id", "jam_operasional": "Senin-Jumat: 08.00-16.00", "foto": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=400" },
+  { "nama": "Badan Kepegawaian Daerah DIY", "alamat": "Jl. Suroto No. 5, Yogyakarta", "telepon": "(0274) 515123", "email": "bkp@jogjaprov.go.id", "website": "https://bkp.jogjaprov.go.id", "jam_operasional": "Senin-Jumat: 08.00-16.00", "foto": "https://images.unsplash.com/photo-1497366754035-f200968a6e7c?w=400" },
+  { "nama": "Badan Pendapatan Daerah DIY", "alamat": "Jl. Kenari No. 78, Yogyakarta", "telepon": "(0274) 515234", "email": "bapenda@jogjaprov.go.id", "website": "https://bapenda.jogjaprov.go.id", "jam_operasional": "Senin-Jumat: 08.00-16.00", "foto": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=400" },
+  { "nama": "Badan Penanggulangan Bencana Daerah DIY", "alamat": "Jl. Ringroad Utara, Sleman", "telepon": "(0274) 4466666", "hotline": "112", "email": "bpbd@jogjaprov.go.id", "website": "https://bpbd.jogjaprov.go.id", "jam_operasional": "24 Jam", "foto": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400" },
+  { "nama": "Inspektorat Daerah DIY", "alamat": "Jl. Malioboro No. 34, Yogyakarta", "telepon": "(0274) 515345", "email": "inspektorat@jogjaprov.go.id", "website": "https://inspektorat.jogjaprov.go.id", "jam_operasional": "Senin-Jumat: 08.00-16.00", "foto": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400" },
+  { "nama": "Badan Kesbangpol DIY", "alamat": "Jl. Cendana No. 15, Yogyakarta", "telepon": "(0274) 515456", "email": "kesbangpol@jogjaprov.go.id", "website": "https://kesbangpol.jogjaprov.go.id", "jam_operasional": "Senin-Jumat: 08.00-16.00", "foto": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=400" }
+],
     
     "pendidikan": {
       "sd": [
+        {
+          "nama": "SDN Ungaran 1 Yogyakarta",
+          "jenjang": "SD",
+          "alamat": "Jl. Serma Taruna Ramli No.3, Kotabaru, Kec. Gondokusuman, Kota",
+          "telepon": "(0274) 565737",
+          "cp": "Kepala Sekolah: Sudarmadi S.Pd.",
+          "website": "https://sdnungaran1.sch.id/",
+          "foto": "https://sdnungaran1.sch.id/assets/images/posts/1715651957-IMG_1904.jpg"
+        },
+        {
+          "nama": "SDN Ungaran 1 Yogyakarta",
+          "jenjang": "SD",
+          "alamat": "Jl. Serma Taruna Ramli No.3, Kotabaru, Kec. Gondokusuman, Kota",
+          "telepon": "(0274) 565737",
+          "cp": "Kepala Sekolah: Sudarmadi S.Pd.",
+          "website": "https://sdnungaran1.sch.id/",
+          "foto": "https://sdnungaran1.sch.id/assets/images/posts/1715651957-IMG_1904.jpg"
+        },
+        {
+          "nama": "SDN Ungaran 1 Yogyakarta",
+          "jenjang": "SD",
+          "alamat": "Jl. Serma Taruna Ramli No.3, Kotabaru, Kec. Gondokusuman, Kota",
+          "telepon": "(0274) 565737",
+          "cp": "Kepala Sekolah: Sudarmadi S.Pd.",
+          "website": "https://sdnungaran1.sch.id/",
+          "foto": "https://sdnungaran1.sch.id/assets/images/posts/1715651957-IMG_1904.jpg"
+        },
+        {
+          "nama": "SDN Ungaran 1 Yogyakarta",
+          "jenjang": "SD",
+          "alamat": "Jl. Serma Taruna Ramli No.3, Kotabaru, Kec. Gondokusuman, Kota",
+          "telepon": "(0274) 565737",
+          "cp": "Kepala Sekolah: Sudarmadi S.Pd.",
+          "website": "https://sdnungaran1.sch.id/",
+          "foto": "https://sdnungaran1.sch.id/assets/images/posts/1715651957-IMG_1904.jpg"
+        },
+        {
+          "nama": "SDN Ungaran 1 Yogyakarta",
+          "jenjang": "SD",
+          "alamat": "Jl. Serma Taruna Ramli No.3, Kotabaru, Kec. Gondokusuman, Kota",
+          "telepon": "(0274) 565737",
+          "cp": "Kepala Sekolah: Sudarmadi S.Pd.",
+          "website": "https://sdnungaran1.sch.id/",
+          "foto": "https://sdnungaran1.sch.id/assets/images/posts/1715651957-IMG_1904.jpg"
+        },
+        {
+          "nama": "SDN Ungaran 1 Yogyakarta",
+          "jenjang": "SD",
+          "alamat": "Jl. Serma Taruna Ramli No.3, Kotabaru, Kec. Gondokusuman, Kota",
+          "telepon": "(0274) 565737",
+          "cp": "Kepala Sekolah: Sudarmadi S.Pd.",
+          "website": "https://sdnungaran1.sch.id/",
+          "foto": "https://sdnungaran1.sch.id/assets/images/posts/1715651957-IMG_1904.jpg"
+        },
+        {
+          "nama": "SDN Ungaran 1 Yogyakarta",
+          "jenjang": "SD",
+          "alamat": "Jl. Serma Taruna Ramli No.3, Kotabaru, Kec. Gondokusuman, Kota",
+          "telepon": "(0274) 565737",
+          "cp": "Kepala Sekolah: Sudarmadi S.Pd.",
+          "website": "https://sdnungaran1.sch.id/",
+          "foto": "https://sdnungaran1.sch.id/assets/images/posts/1715651957-IMG_1904.jpg"
+        },
+        {
+          "nama": "SDN Ungaran 1 Yogyakarta",
+          "jenjang": "SD",
+          "alamat": "Jl. Serma Taruna Ramli No.3, Kotabaru, Kec. Gondokusuman, Kota",
+          "telepon": "(0274) 565737",
+          "cp": "Kepala Sekolah: Sudarmadi S.Pd.",
+          "website": "https://sdnungaran1.sch.id/",
+          "foto": "https://sdnungaran1.sch.id/assets/images/posts/1715651957-IMG_1904.jpg"
+        },
+        {
+          "nama": "SDN Ungaran 1 Yogyakarta",
+          "jenjang": "SD",
+          "alamat": "Jl. Serma Taruna Ramli No.3, Kotabaru, Kec. Gondokusuman, Kota",
+          "telepon": "(0274) 565737",
+          "cp": "Kepala Sekolah: Sudarmadi S.Pd.",
+          "website": "https://sdnungaran1.sch.id/",
+          "foto": "https://sdnungaran1.sch.id/assets/images/posts/1715651957-IMG_1904.jpg"
+        },
         {
           "nama": "SDN Ungaran 1 Yogyakarta",
           "jenjang": "SD",
@@ -145,6 +310,87 @@
           "foto": "https://smpn1yogyakarta.sch.id/assets/images/galeri/Galeri1648272425.png"
         },
         {
+          "nama": "SMP Negeri 1 Yogyakarta",
+          "jenjang": "SMP",
+          "alamat": "Jalan Cik Di Tiro No.29, Yogyakarta, Daerah Istimewa Yogyakarta, Indonesia",
+          "telepon": "(0274) 560232",
+          "cp": "Kepala Sekolah: Dra. Y. Niken Sasanti, M.Pd",
+          "website": "https://smpn1yogyakarta.sch.id/",
+          "foto": "https://smpn1yogyakarta.sch.id/assets/images/galeri/Galeri1648272425.png"
+        },
+        {
+          "nama": "SMP Negeri 1 Yogyakarta",
+          "jenjang": "SMP",
+          "alamat": "Jalan Cik Di Tiro No.29, Yogyakarta, Daerah Istimewa Yogyakarta, Indonesia",
+          "telepon": "(0274) 560232",
+          "cp": "Kepala Sekolah: Dra. Y. Niken Sasanti, M.Pd",
+          "website": "https://smpn1yogyakarta.sch.id/",
+          "foto": "https://smpn1yogyakarta.sch.id/assets/images/galeri/Galeri1648272425.png"
+        },
+        {
+          "nama": "SMP Negeri 1 Yogyakarta",
+          "jenjang": "SMP",
+          "alamat": "Jalan Cik Di Tiro No.29, Yogyakarta, Daerah Istimewa Yogyakarta, Indonesia",
+          "telepon": "(0274) 560232",
+          "cp": "Kepala Sekolah: Dra. Y. Niken Sasanti, M.Pd",
+          "website": "https://smpn1yogyakarta.sch.id/",
+          "foto": "https://smpn1yogyakarta.sch.id/assets/images/galeri/Galeri1648272425.png"
+        },
+        {
+          "nama": "SMP Negeri 1 Yogyakarta",
+          "jenjang": "SMP",
+          "alamat": "Jalan Cik Di Tiro No.29, Yogyakarta, Daerah Istimewa Yogyakarta, Indonesia",
+          "telepon": "(0274) 560232",
+          "cp": "Kepala Sekolah: Dra. Y. Niken Sasanti, M.Pd",
+          "website": "https://smpn1yogyakarta.sch.id/",
+          "foto": "https://smpn1yogyakarta.sch.id/assets/images/galeri/Galeri1648272425.png"
+        },
+        {
+          "nama": "SMP Negeri 1 Yogyakarta",
+          "jenjang": "SMP",
+          "alamat": "Jalan Cik Di Tiro No.29, Yogyakarta, Daerah Istimewa Yogyakarta, Indonesia",
+          "telepon": "(0274) 560232",
+          "cp": "Kepala Sekolah: Dra. Y. Niken Sasanti, M.Pd",
+          "website": "https://smpn1yogyakarta.sch.id/",
+          "foto": "https://smpn1yogyakarta.sch.id/assets/images/galeri/Galeri1648272425.png"
+        },
+        {
+          "nama": "SMP Negeri 1 Yogyakarta",
+          "jenjang": "SMP",
+          "alamat": "Jalan Cik Di Tiro No.29, Yogyakarta, Daerah Istimewa Yogyakarta, Indonesia",
+          "telepon": "(0274) 560232",
+          "cp": "Kepala Sekolah: Dra. Y. Niken Sasanti, M.Pd",
+          "website": "https://smpn1yogyakarta.sch.id/",
+          "foto": "https://smpn1yogyakarta.sch.id/assets/images/galeri/Galeri1648272425.png"
+        },
+        {
+          "nama": "SMP Negeri 1 Yogyakarta",
+          "jenjang": "SMP",
+          "alamat": "Jalan Cik Di Tiro No.29, Yogyakarta, Daerah Istimewa Yogyakarta, Indonesia",
+          "telepon": "(0274) 560232",
+          "cp": "Kepala Sekolah: Dra. Y. Niken Sasanti, M.Pd",
+          "website": "https://smpn1yogyakarta.sch.id/",
+          "foto": "https://smpn1yogyakarta.sch.id/assets/images/galeri/Galeri1648272425.png"
+        },
+        {
+          "nama": "SMP Negeri 1 Yogyakarta",
+          "jenjang": "SMP",
+          "alamat": "Jalan Cik Di Tiro No.29, Yogyakarta, Daerah Istimewa Yogyakarta, Indonesia",
+          "telepon": "(0274) 560232",
+          "cp": "Kepala Sekolah: Dra. Y. Niken Sasanti, M.Pd",
+          "website": "https://smpn1yogyakarta.sch.id/",
+          "foto": "https://smpn1yogyakarta.sch.id/assets/images/galeri/Galeri1648272425.png"
+        },
+        {
+          "nama": "SMP Negeri 1 Yogyakarta",
+          "jenjang": "SMP",
+          "alamat": "Jalan Cik Di Tiro No.29, Yogyakarta, Daerah Istimewa Yogyakarta, Indonesia",
+          "telepon": "(0274) 560232",
+          "cp": "Kepala Sekolah: Dra. Y. Niken Sasanti, M.Pd",
+          "website": "https://smpn1yogyakarta.sch.id/",
+          "foto": "https://smpn1yogyakarta.sch.id/assets/images/galeri/Galeri1648272425.png"
+        },
+        {
           "nama": "SMP Negeri 5 Yogyakarta",
           "jenjang": "SMP",
           "alamat": "Jalan Wardhani No.1, Kotabaru, Kec. Gondokusuman, Kota Yogyakarta, Yogyakarta 55224",
@@ -157,7 +403,7 @@
           "nama": "SMP Muhammadiyah 2 Yogyakarta",
           "jenjang": "SMP",
           "alamat": "Jl. Kapas II No.7A, Semaki, Kec. Umbulharjo Kota Yogyakarta, Daerah Istimewa Yogyakarta 55166",
-          "telepon": " (0274) 514807",
+          "telepon": "(0274) 514807",
           "cp": "Kepala Sekolah: Naning Hidayati, S.Pd., M.Pd.",
           "website": "https://smpmuh2yk.sch.id/",
           "foto": "https://smpmuh2yk.sch.id/wp-content/uploads/2023/10/WhatsApp-Image-2023-10-25-at-14.15.02-scaled.jpeg"
@@ -165,6 +411,87 @@
       ],
       
       "sma": [
+        {
+          "nama": "SMA Negeri 1 Yogyakarta",
+          "jenjang": "SMA",
+          "alamat": "Jl. HOS Cokroaminoto No.10, Pakuncen, Wirobrajan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55253",
+          "telepon": "0274-513454",
+          "cp": "Kepala Sekolah: Dra. Y. Niken Sasanti, M.Pd.",
+          "website": "www.sman1yogya.sch.id/",
+          "foto": "https://sman1yogya.sch.id/assets/images/uploads/page/3a5a6f8f166643a54f63ff4979fed118-1500x700.jpg"
+        },
+        {
+          "nama": "SMA Negeri 1 Yogyakarta",
+          "jenjang": "SMA",
+          "alamat": "Jl. HOS Cokroaminoto No.10, Pakuncen, Wirobrajan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55253",
+          "telepon": "0274-513454",
+          "cp": "Kepala Sekolah: Dra. Y. Niken Sasanti, M.Pd.",
+          "website": "www.sman1yogya.sch.id/",
+          "foto": "https://sman1yogya.sch.id/assets/images/uploads/page/3a5a6f8f166643a54f63ff4979fed118-1500x700.jpg"
+        },
+        {
+          "nama": "SMA Negeri 1 Yogyakarta",
+          "jenjang": "SMA",
+          "alamat": "Jl. HOS Cokroaminoto No.10, Pakuncen, Wirobrajan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55253",
+          "telepon": "0274-513454",
+          "cp": "Kepala Sekolah: Dra. Y. Niken Sasanti, M.Pd.",
+          "website": "www.sman1yogya.sch.id/",
+          "foto": "https://sman1yogya.sch.id/assets/images/uploads/page/3a5a6f8f166643a54f63ff4979fed118-1500x700.jpg"
+        },
+        {
+          "nama": "SMA Negeri 1 Yogyakarta",
+          "jenjang": "SMA",
+          "alamat": "Jl. HOS Cokroaminoto No.10, Pakuncen, Wirobrajan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55253",
+          "telepon": "0274-513454",
+          "cp": "Kepala Sekolah: Dra. Y. Niken Sasanti, M.Pd.",
+          "website": "www.sman1yogya.sch.id/",
+          "foto": "https://sman1yogya.sch.id/assets/images/uploads/page/3a5a6f8f166643a54f63ff4979fed118-1500x700.jpg"
+        },
+        {
+          "nama": "SMA Negeri 1 Yogyakarta",
+          "jenjang": "SMA",
+          "alamat": "Jl. HOS Cokroaminoto No.10, Pakuncen, Wirobrajan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55253",
+          "telepon": "0274-513454",
+          "cp": "Kepala Sekolah: Dra. Y. Niken Sasanti, M.Pd.",
+          "website": "www.sman1yogya.sch.id/",
+          "foto": "https://sman1yogya.sch.id/assets/images/uploads/page/3a5a6f8f166643a54f63ff4979fed118-1500x700.jpg"
+        },
+        {
+          "nama": "SMA Negeri 1 Yogyakarta",
+          "jenjang": "SMA",
+          "alamat": "Jl. HOS Cokroaminoto No.10, Pakuncen, Wirobrajan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55253",
+          "telepon": "0274-513454",
+          "cp": "Kepala Sekolah: Dra. Y. Niken Sasanti, M.Pd.",
+          "website": "www.sman1yogya.sch.id/",
+          "foto": "https://sman1yogya.sch.id/assets/images/uploads/page/3a5a6f8f166643a54f63ff4979fed118-1500x700.jpg"
+        },
+        {
+          "nama": "SMA Negeri 1 Yogyakarta",
+          "jenjang": "SMA",
+          "alamat": "Jl. HOS Cokroaminoto No.10, Pakuncen, Wirobrajan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55253",
+          "telepon": "0274-513454",
+          "cp": "Kepala Sekolah: Dra. Y. Niken Sasanti, M.Pd.",
+          "website": "www.sman1yogya.sch.id/",
+          "foto": "https://sman1yogya.sch.id/assets/images/uploads/page/3a5a6f8f166643a54f63ff4979fed118-1500x700.jpg"
+        },
+        {
+          "nama": "SMA Negeri 1 Yogyakarta",
+          "jenjang": "SMA",
+          "alamat": "Jl. HOS Cokroaminoto No.10, Pakuncen, Wirobrajan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55253",
+          "telepon": "0274-513454",
+          "cp": "Kepala Sekolah: Dra. Y. Niken Sasanti, M.Pd.",
+          "website": "www.sman1yogya.sch.id/",
+          "foto": "https://sman1yogya.sch.id/assets/images/uploads/page/3a5a6f8f166643a54f63ff4979fed118-1500x700.jpg"
+        },
+        {
+          "nama": "SMA Negeri 1 Yogyakarta",
+          "jenjang": "SMA",
+          "alamat": "Jl. HOS Cokroaminoto No.10, Pakuncen, Wirobrajan, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55253",
+          "telepon": "0274-513454",
+          "cp": "Kepala Sekolah: Dra. Y. Niken Sasanti, M.Pd.",
+          "website": "www.sman1yogya.sch.id/",
+          "foto": "https://sman1yogya.sch.id/assets/images/uploads/page/3a5a6f8f166643a54f63ff4979fed118-1500x700.jpg"
+        },
         {
           "nama": "SMA Negeri 1 Yogyakarta",
           "jenjang": "SMA",
@@ -217,7 +544,7 @@
           "nama": "Universitas Ahmad Dahlan (UAD)",
           "jenjang": "Universitas",
           "alamat": "Jl. Kapas No.9, Semaki, Kec. Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55166",
-          "telepon": " (0274) 563515",
+          "telepon": "(0274) 563515",
           "cp": "Call Center: 1500-749",
           "website": "https://uad.ac.id/",
           "foto": "https://news.uad.ac.id/wp-content/uploads/Kampus-4-Universitas-Ahmad-Dahlan.jpg"

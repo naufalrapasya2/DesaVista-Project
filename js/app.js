@@ -140,55 +140,22 @@ loadJSON('data/info-desa.json', 'info-content', (info) => {
         <p>${info.tiket || '-'}</p>
       </div>
 
-      <!-- TAB: RUMAH SAKIT -->
+      <!-- TAB: RUMAH SAKIT (dengan layout card seperti pendidikan) -->
       <div id="tab-rumahsakit" class="tab-pane">
         <h3>🏥 Rumah Sakit di Yogyakarta</h3>
-        <div class="list-container">
-          ${(layanan.rumah_sakit || []).map(rs => `
-            <div class="list-item">
-              <h4>${rs.nama}</h4>
-              <p><strong>📍 Alamat:</strong> ${rs.alamat}</p>
-              <p><strong>📞 Telepon:</strong> ${rs.telepon}</p>
-              <p><strong>👤 CP:</strong> ${rs.cp}</p>
-              <p><span class="badge">${rs.kategori}</span></p>
-              ${rs.website ? `<a href="${rs.website}" target="_blank" class="btn-website">🌐 Kunjungi Website</a>` : ''}
-            </div>
-          `).join('')}
-        </div>
+        ${renderLayananSection('Rumah Sakit', layanan.rumah_sakit || [], 'kategori')}
       </div>
 
-      <!-- TAB: KANTOR PELAYANAN -->
+      <!-- TAB: KANTOR PELAYANAN (dengan layout card seperti pendidikan) -->
       <div id="tab-pelayanan" class="tab-pane">
         <h3>🏢 Kantor Pelayanan Masyarakat</h3>
-        <div class="list-container">
-          ${(layanan.kantor_pelayanan || []).map(kantor => `
-            <div class="list-item">
-              <h4>${kantor.nama}</h4>
-              <p><strong>📍 Alamat:</strong> ${kantor.alamat}</p>
-              <p><strong>📞 Telepon:</strong> ${kantor.telepon}</p>
-              <p><strong>👤 CP:</strong> ${kantor.cp}</p>
-              <p><strong>⏰ Jam Kerja:</strong> ${kantor.jam_kerja}</p>
-              ${kantor.website ? `<a href="${kantor.website}" target="_blank" class="btn-website">🌐 Kunjungi Website</a>` : ''}
-            </div>
-          `).join('')}
-        </div>
+        ${renderLayananSection('Kantor Pelayanan', layanan.kantor_pelayanan || [], '')}
       </div>
 
-      <!-- TAB: PEMERINTAH DAERAH -->
+      <!-- TAB: PEMERINTAH DAERAH (dengan layout card seperti pendidikan) -->
       <div id="tab-pemerintah" class="tab-pane">
         <h3>🏛️ Pemerintah Daerah</h3>
-        <div class="list-container">
-          ${(layanan.pemerintah_daerah || []).map(pemda => `
-            <div class="list-item">
-              <h4>${pemda.nama}</h4>
-              <p><strong>📍 Alamat:</strong> ${pemda.alamat}</p>
-              <p><strong>📞 Telepon:</strong> ${pemda.telepon}</p>
-              ${pemda.email ? `<p><strong>📧 Email:</strong> ${pemda.email}</p>` : ''}
-              ${pemda.website ? `<a href="${pemda.website}" target="_blank" class="btn-website">🌐 Kunjungi Website</a>` : ''}
-              ${pemda.hotline ? `<p><strong>🚨 Hotline:</strong> ${pemda.hotline}</p>` : ''}
-            </div>
-          `).join('')}
-        </div>
+        ${renderLayananSection('Pemerintah Daerah', layanan.pemerintah_daerah || [], '')}
       </div>
 
       <!-- TAB: PENDIDIKAN dengan SUB-TABS -->
@@ -236,6 +203,36 @@ loadJSON('data/info-desa.json', 'info-content', (info) => {
     </div>
   `;
 });
+
+// ===== HELPER: Render Layanan Section (Rumah Sakit, Pelayanan, Pemerintah) =====
+function renderLayananSection(title, items, badgeField) {
+  if (!items || items.length === 0) {
+    return `<p style="text-align:center; padding:2rem; color:#666;">Data tidak tersedia</p>`;
+  }
+  
+  return `
+    <div class="layanan-grid">
+      ${items.map(item => `
+        <div class="layanan-card">
+          <img src="${item.foto || 'https://placehold.co/400x200/2c5e4f/white?text=${encodeURIComponent(title)}'}" 
+               alt="${item.nama}" 
+               onerror="this.src='https://placehold.co/400x200/2c5e4f/white?text=${encodeURIComponent(item.nama)}'">
+          <div class="layanan-card-body">
+            <h4>${item.nama}</h4>
+            ${badgeField && item[badgeField] ? `<span class="badge">${item[badgeField]}</span>` : ''}
+            <p><strong>📍 Alamat:</strong> ${item.alamat}</p>
+            <p><strong>📞 Telepon:</strong> ${item.telepon}</p>
+            <p><strong>👤 CP:</strong> ${item.cp}</p>
+            ${item.jam_operasional ? `<p><strong>⏰ Jam Operasional:</strong> ${item.jam_operasional}</p>` : ''}
+            ${item.email ? `<p><strong>📧 Email:</strong> ${item.email}</p>` : ''}
+            ${item.hotline ? `<p><strong>🚨 Hotline:</strong> ${item.hotline}</p>` : ''}
+            ${item.website ? `<a href="${item.website}" target="_blank" class="btn-website">🌐 Kunjungi Website</a>` : ''}
+          </div>
+        </div>
+      `).join('')}
+    </div>
+  `;
+}
 
 // ===== HELPER: Render Education Section =====
 function renderEduSection(title, items) {
